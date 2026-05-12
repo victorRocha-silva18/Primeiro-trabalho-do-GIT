@@ -1,2 +1,2 @@
-# Primeiro-trabalho-do-GIT
+# erp-estoque.primeirotrabalhogit
 primeiro trabalho criado do git
