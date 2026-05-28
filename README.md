@@ -6,8 +6,7 @@ O projeto foi desenvolvido com objetivo acadêmico e prático, aplicando conceit
 
 - Programação em Python
 - Estruturas de dados
-- Manipulação de tabelas com Pandas
-- Organização modular
+- Manipulação de dados com Pandas
 - CRUD de produtos
 - Automação de estoque
 - Tratamento de dados
@@ -19,11 +18,12 @@ O projeto foi desenvolvido com objetivo acadêmico e prático, aplicando conceit
 
 Tecnologias Utilizadas
 
-- Python 3.x
+- Python
 - Pandas
 - Google Colab
-- Git & GitHub
+- GitHub
 - ChatGPT
+- Gemini
   
 Estrutura do Projeto
 ```bash
@@ -35,85 +35,6 @@ Estrutura do Projeto
 └── requirements.txt
 ```
 
----
- Como Executar o Projeto
-
- Clone o repositório
-
-```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-```
-
----
-
- Acesse a pasta
-
-```bash
-cd NOME-DO-REPOSITORIO
-```
-
----
-
-Instale as dependências
-
-```bash
-pip install pandas
-```
-
-Ou:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
- Execute o projeto
-
-Caso esteja usando:
-
- Google Colab
-
-Abra o arquivo `.ipynb` no Google Colab.
-
- VS Code / Terminal
-
-```bash
-python nome_do_arquivo.py
-```
-
----
-
- Conceitos Aplicados
-
- CRUD
-
-O sistema implementa operações de:
-
-- Create → Cadastro de produtos
-- Read → Consulta de informações
-- Update → Atualização de estoque
-- Delete → Remoção de produtos
-
----
-
- Pandas
-
-A biblioteca Pandas foi utilizada para:
-
-- Organização tabular dos dados
-- Leitura e escrita de arquivos CSV
-- Manipulação de estoque
-- Filtragem e atualização de registros
-- Estruturação dos relatórios
-
-Exemplo:
-
-```python
-df = pd.read_csv("produtos.csv")
-```
-
----
 
  Fluxo do Sistema
 
