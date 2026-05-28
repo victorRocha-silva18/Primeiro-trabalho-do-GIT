@@ -1,128 +1,62 @@
- Sistema de Controle de Estoque em Python
+ # Sistema de Controle de Estoque em Python
 
-Sistema de gerenciamento de estoque desenvolvido em Python com foco em controle de produtos, movimentação de entrada e saída, análise de dados e persistência em arquivos.
+Esse projeto é um sistema simples de controle de estoque feito em Python usando SQLite.
 
-O projeto foi desenvolvido com objetivo acadêmico e prático, aplicando conceitos de:
-
-- Programação em Python
-- Estruturas de dados
-- Manipulação de dados com Pandas
-- CRUD de produtos
-- Automação de estoque
-- Tratamento de dados
-- Lógica de negócio
-
- Funcionalidades
+O sistema permite cadastrar produtos, fazer entrada e saída no estoque, listar produtos e gerar um relatório simples do estoque.
 
 
+# Funcionalidades
 
-Tecnologias Utilizadas
+* Cadastro de produtos
+* Listagem de produtos
+* Entrada de produtos no estoque
+* Saída de produtos do estoque
+* Verificação de estoque baixo
+* Relatório do estoque
+* Cálculo do valor total do estoque
 
-- Python
-- Pandas
-- Google Colab
-- GitHub
-- ChatGPT
-- Gemini
-  
-Estrutura do Projeto
-```bash
-📁 sistema-estoque/
-│
-├── estoque.ipynb
-├── produtos.csv
-├── README.md
-└── requirements.txt
-```
+#  Tecnologias utilizadas
+* Python
+* SQLite3
+* Pandas
+* gemini
+* chatgpt
+* google colab
 
 
- Fluxo do Sistema
+# O que o sistema faz
 
-```text
-Usuário
-   ↓
-Interface/Menu
-   ↓
-Funções do Sistema
-   ↓
-Manipulação dos Dados
-   ↓
-Atualização do Estoque
-   ↓
-Salvamento em CSV
-```
+## Cadastro de produtos
 
----
+Permite cadastrar:
 
- Exemplo de Funcionamento
+* Nome
+* Preço
+* Quantidade
 
-Cadastro de Produto
+## Entrada de produtos
 
-```python
-Produto: Mouse Gamer
-Quantidade: 10
-Preço: 150
-```
+Adiciona mais unidades ao estoque.
 
- Saída de Estoque
+## Saída de produtos
 
-```python
-Produto removido do estoque com sucesso.
-Quantidade atualizada.
-```
+Remove produtos do estoque e verifica se existe quantidade suficiente.
 
----
+## Verificação de estoque
 
- Principais Funções do Projeto
+Mostra produtos com estoque baixo.
 
-| Função | Responsabilidade |
+## Relatório
 
-| cadastrar_produto() | Adiciona novos produtos |
-| remover_produto() | Remove produtos |
-| atualizar_estoque() | Atualiza quantidades |
-| listar_produtos() | Exibe os produtos |
-| salvar_dados() | Salva no CSV |
-| carregar_dados() | Lê os dados salvos |
-
----
-
- Arquitetura do Projeto
-
-O projeto segue uma arquitetura simples baseada em separação de responsabilidades:
-
-- Entrada de dados
-- Regras de negócio
-- Manipulação do DataFrame
-- Persistência dos arquivos
+Mostra todos os produtos cadastrados e o valor total do estoque.
 
 
- Melhorias Futuras
+# Objetivo do Projeto
 
-- [ ] Interface gráfica
-- [ ] Integração com banco de dados
-- [ ] Sistema web com Flask/Django
-- [ ] Controle de usuários
-- [ ] Dashboard de relatórios
-- [ ] API REST
-- [ ] Deploy online
+Esse projeto foi desenvolvido para praticar programação em Python, criando um sistema de estoque funcional.
 
 
-Objetivo do Projeto
+# Autor
 
-Este projeto foi desenvolvido para aprimorar conhecimentos em:
+Victor Rocha da Silva
 
-- Programação Python
-- Manipulação de dados
-- Estruturas condicionais e de repetição
-- Modularização
-- Versionamento com Git/GitHub
-- Desenvolvimento de sistemas reais
-
-
- Autor
-
-Desenvolvido por Victor Rocha da Silva
-
-GitHub:
-
-LinkedIn:
